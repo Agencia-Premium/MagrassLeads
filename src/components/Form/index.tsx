@@ -118,6 +118,17 @@ export default function Form({ onOpenWhatsAppModal }: FormProps) {
             })}
           </select>
 
+          <div className="buttoncheck">
+            <input className="botaoCheck" type="checkbox" id="check" required />
+            <label className="check" htmlFor="check">
+              Concordo com os
+              <a href="./politica-privacidade" target="_blank">
+                Termos e Políticas
+              </a>
+              deste Website.
+            </label>
+          </div>
+
           <button type="submit">
             <img src="./buttonEnviar.svg" alt="Botão agendamento" /> Realizar
             agendamento

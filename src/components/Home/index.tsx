@@ -20,9 +20,9 @@ export function HomeComponent() {
     <>
       <Container>
         <aside className={isNewWhatsappModalOpen ? "modalActive" : ""}>
-          <img className="firstImg" src="./logo.svg" alt="Logo agenda" />
+          <img className="firstImg" src="./selo.png" alt="Logo agenda" />
           <div className="agenda">
-            <img className="sencondImg" src="./agenda.svg" alt="agenda" />
+            <img className="sencondImg" src="./agendaT.png" alt="agenda" />
           </div>
         </aside>
 

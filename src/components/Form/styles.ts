@@ -24,7 +24,29 @@ export const Container = styled.div`
       }
     }
 
-    input,
+    .buttoncheck {
+      margin-top: 2rem;
+
+      label {
+        font-size: 1.6rem;
+        padding-left: 2rem;
+      }
+
+      .check {
+        color: #737380;
+
+        a {
+          padding: 0 0.6rem;
+          color: #333;
+        }
+      }
+      .botaoCheck {
+        width: 4% !important;
+        transform: scale(1.5);
+      }
+    }
+
+    input:not(.botaoCheck),
     select {
       width: 100%;
       padding: 0 1.5rem;

@@ -82,6 +82,7 @@ export const Container = styled.div`
       img {
         @media (max-width: 1800px) {
           width: 85%;
+          height: 50%;
         }
 
         @media (max-width: 1024px) {
